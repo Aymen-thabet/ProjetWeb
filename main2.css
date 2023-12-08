@@ -1,0 +1,135 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf7ed;
+    color: #333;
+    font-size: 1em;
+}
+
+header {
+    background-color: #4caf50;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4em;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.9em;
+    padding: 15px 30px;
+    transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #4caf50;
+}
+
+section {
+    padding: 40px;
+    border-radius: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+#military-education,
+#military-projects,
+#esprit-education,
+#esprit-projects {
+    background-color: #c8e6c9; 
+}
+
+.education-block,
+.project {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.education-block img,
+.project img {
+    width: 20%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.education-details,
+.project {
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+    font-size: 22px;
+}
+
+.project {
+    margin-top: 20px;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+#military-education h2,
+#military-projects h2,
+#esprit-education h2,
+#esprit-projects h2 {
+    color: #2e7d32;
+    padding: 10px;
+
+}
+#esprit-education h3{
+    color: #2e7d32;
+}
+#esprit-projects h3{
+    color:rgb(179, 86, 86);
+    padding: 10px;
+
+}
+#military-projects h3{
+    color:rgb(179, 86, 86);
+    padding: 10px;
+
+}
+.project h3,
+.project h4 {
+    font-size: 1.1em;
+    color: #2e7d32;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    padding: 20px;
+    background-color: #4caf50;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
