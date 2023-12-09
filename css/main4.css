@@ -4,6 +4,10 @@ body {
     padding: 0;
     background-color: #eaf7ed;
     color: #333;
+    background-image: url('../img/bc.jpg');
+    background-size: cover;
+    background-position: center;
+
 }
 
 header {
